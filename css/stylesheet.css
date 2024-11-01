@@ -1,0 +1,112 @@
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: rgb(206, 155, 219);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    background-color: rgb(145, 14, 42);
+}
+
+footer {
+    width: 594px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: rgb(206, 155, 219);
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+h1 {
+    width: 594px;
+    background-color: rgb(255, 232, 252);
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h3 {
+    width: 594px;
+    background-color: rgb(255, 240, 252);
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    width: 594px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table {
+    width: 632px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td, th {
+    padding: 10px 5px;
+    border: 2px solid grey;
+    background-color: rgb(255, 240, 252);
+}
+
+input, textarea, button {
+    display: block;
+    width: 632px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+button:active {
+    background-color: pink;
+    color: white;
+}
+
+
